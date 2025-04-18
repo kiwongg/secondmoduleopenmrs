@@ -1,0 +1,19 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+    http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
+
+    <changeSet id="premium-greetings-1" author="you">
+        <createTable tableName="premium_greetings">
+            <column name="greeting_id" type="CHAR(36)">
+                <constraints primaryKey="true"
+                             foreignKeyName="fk_premium_greeting"
+                             references="greetings(uuid)"/>
+            </column>
+            <column name="premium_level" type="INT"/>
+            <column name="is_featured" type="BOOLEAN"/>
+            <column name="created_at" type="DATETIME"/>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>

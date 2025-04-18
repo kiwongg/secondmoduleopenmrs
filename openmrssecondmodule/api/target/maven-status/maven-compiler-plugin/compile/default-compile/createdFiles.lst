@@ -1,0 +1,4 @@
+org\openmrs\module\premium\api\service\PremiumGreetingService.class
+org\openmrs\module\premium\api\dao\PremiumGreetingDAO.class
+org\openmrs\module\premium\api\model\PremiumGreeting.class
+org\openmrs\module\premium\PremiumWorldActivator.class

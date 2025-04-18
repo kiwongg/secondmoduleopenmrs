@@ -1,0 +1,2 @@
+org\openmrs\module\premium\omod\extension\html\AdminList.class
+org\openmrs\module\premium\web\controller\PremiumGreetingController.class

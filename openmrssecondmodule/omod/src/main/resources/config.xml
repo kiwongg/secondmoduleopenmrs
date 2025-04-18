@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module configVersion="1.2">
+	<id>premium</id>
+	<name>Premium Greetings Module</name>
+	<version>1.0.0-SNAPSHOT</version>
+	<author>Asmit Gurung</author>
+
+	<package>org.openmrs.module.premium</package>
+
+
+	<activator>org.openmrs.module.premium.PremiumWorldActivator</activator>
+
+
+	<require_modules>
+		<require_module>helloworld</require_module>
+	</require_modules>
+
+
+	<updateFile>liquibase.xml</updateFile>
+
+
+</module>

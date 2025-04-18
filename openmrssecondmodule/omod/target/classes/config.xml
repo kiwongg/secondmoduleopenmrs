@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module configVersion="1.2">
+	<id>premium</id>
+	<name>Premium Greetings Module</name> <!-- Changed from "Hello World" -->
+	<version>1.0.0-SNAPSHOT</version>
+	<package>org.openmrs.module.premium</package>
+
+	<!-- Update activator to match new class -->
+	<activator>org.openmrs.module.premium.PremiumWorldActivator</activator>
+
+	<!-- Rest of your config remains the same -->
+	<require_modules>
+		<require_module>helloworld</require_module>
+	</require_modules>
+
+
+	<updateFile>liquibase.xml</updateFile>
+
+
+</module>
